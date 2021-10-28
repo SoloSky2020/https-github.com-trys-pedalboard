@@ -391,7 +391,7 @@ h1 {
 }
 
 .pedal--looper .pedal__on-off {
-    /* display: none; */
+     display: none; 
 }
 
 .cassette {
