@@ -595,3 +595,10 @@ h1 {
 .sub-pedal-mix {
     --sub-pedal-background: #ACB5B8;
 }
+.heading{
+    background-color: rgb(77, 77, 77);
+    text-align: center;
+    color:rgb(214, 214, 214);
+    font-size: 40px;
+    padding: 1px;
+  }
