@@ -602,3 +602,11 @@ h1 {
     font-size: 40px;
     padding: 1px;
   }
+#credits, #info, #audio{
+  height: 35px;
+  width: 75px;
+  border-radius: 50%;
+  display: inline-table;
+  font-size:large;
+  color:white;
+}
