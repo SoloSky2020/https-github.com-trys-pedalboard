@@ -621,14 +621,27 @@ h1 {
   #credits:active, #info:active, #audio:active, #tutorial:active{
     background-color: black;
   }
-  #Credits .creditsinfo{
+  #Credits{
     background-color:blueviolet;
   }
-  #Info .infoinfo{
+  
+  #Info {
     background-color: lightseagreen;
   }
-  #Audio .Audioinfo{
+  #Audio {
     background-color:darkorange;
+  }
+  .Audioinfo{
+      background-color: darkorange;
+      color:black
+  }
+  .infoinfo {
+    background-color: lightseagreen;
+    color:black
+  }
+  .creditsinfo{
+    background-color:blueviolet;
+    color:black
   }
   #tutorial{
     height: 35px;
@@ -640,9 +653,64 @@ h1 {
     color:black
   }
   .tutorialinfo{
-    background-color:yellow
+    background-color:yellow;
+    color:black
   }
 .homeinfo{
     justify-content: center;
     text-align: center;
+}
+.pedhome{
+    width:100px;
+    height:100px
+  }
+.pedhome{
+    display:inline-block;
+  }
+.pedAudio{
+    width:75px;
+    height:100px;
+    display:inline-block;
+  }
+.pedimg{
+    width: 98px;
+    height: 165px;
+    display:inline-block;
+  }
+.creditsbody{
+    justify-content: center;
+  }
+.credhead, .audiohead, .tutorialhead{
+    text-align: center;
+    font-size: 20px;
+    padding: 1px;
+  }
+.credhead{
+    background-color: rgb(171, 77, 240);
+  }
+.audiohead{
+    background-color:darkorange;
+    color:black;
+  }
+.tutorialhead{
+    background-color: yellow;
+    color:black;
+  }
+ul{
+    list-style-type:none; 
+  }
+li{
+    display:inline-flex; 
+  }
+.infohead{
+    background-color: rgb(0, 255, 245);
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 1px;
+  }
+.infotext{
+    background-color: darkred;
+    color:white;
+    
 }
