@@ -1,8 +1,38 @@
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <h2>oh whaaa!</h2>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,700" rel="stylesheet">
+    <title>JavaScript pedalboard</title>
+    <meta name="description" content="Guitar pedals in the browser!" />
+    <meta property="og:url" content="https://pedalboard.netlify.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="JavaScript pedalboard" />
+    <meta property="og:description" content="Guitar pedals in the browser!" />
+    <meta property="og:image" content="https://pedalboard.netlify.com/assets/OG.png" />
+    <meta property="og:image:alt" content="Trys Mudford" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="JavaScript pedalboard" />
+    <meta name="twitter:description" content="Guitar pedals in the browser!" />
+    <meta name="twitter:image" content="https://pedalboard.netlify.com/assets/OG.png" />
+</head>
+<body class="loading">
+    <div class="pedalboard"><h1>Infinity Pedal</h1></div>
+
+    <div class="starter">
+        <h2>Select Your Audio Type!</h2>
+        <button type="button" class="start start--live">► Play live!</button>
+        <button type="button" class="start start--clip">♪ Audio clip</button>
+
+        <ul>
+            <li>
+                <a href="https://github.com/SoloSky2020/InfinityPedaltry2">GitHub repository</a>
+            </li>
+        </ul>
+    </div>
+
+    <audio src="/assets/guitar.mp3" loop />
+    <script src="/assets/index.js" type="module"></script>
+</body>
 </html>

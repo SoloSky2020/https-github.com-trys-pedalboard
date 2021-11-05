@@ -610,3 +610,39 @@ h1 {
   font-size:large;
   color:white;
 }
+#credits, #info, #audio{
+    height: 35px;
+    width: 75px;
+    border-radius: 50%;
+    display: inline-table;
+    font-size:large;
+    color:white;
+  }
+  #credits:active, #info:active, #audio:active, #tutorial:active{
+    background-color: black;
+  }
+  #Credits .creditsinfo{
+    background-color:blueviolet;
+  }
+  #Info .infoinfo{
+    background-color: lightseagreen;
+  }
+  #Audio .Audioinfo{
+    background-color:darkorange;
+  }
+  #tutorial{
+    height: 35px;
+    width: 85px;
+    border-radius: 50%;
+    display: inline-table;
+    font-size:large;
+    background-color:yellow;
+    color:black
+  }
+  .tutorialinfo{
+    background-color:yellow
+  }
+.homeinfo{
+    justify-content: center;
+    text-align: center;
+}
