@@ -80,7 +80,7 @@ export const loopPedal = function(input, index) {
       <button type="button" class="pedal__button" data-label aria-label="Stop"></button>
     </div>
   </div>
-  <h2>for(loop)</h2>
+  <h2>Loop Pedal</h2>
   <span class="pedal__jack"></span>
   <span class="pedal__jack"></span>`;
 

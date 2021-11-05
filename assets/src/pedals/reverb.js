@@ -38,7 +38,7 @@ export const reverbPedal = function(input, index) {
   // Create the DOM nodes
   const pedal = createPedal({
     name: 'reverb',
-    label: 'spacer.gif',
+    label: 'Reverb',
     toggle,
     active: defaults.active,
     index

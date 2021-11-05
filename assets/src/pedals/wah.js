@@ -34,7 +34,7 @@ export const wahPedal = function(input, index) {
   // Create the DOM nodes
   const pedal = createPedal({
     name: 'wah',
-    label: '.filter()',
+    label: 'Wah Pedal',
     toggle,
     active: defaults.active,
     index

@@ -46,7 +46,7 @@ export const chorusPedal = function(input, index) {
   // Create the DOM nodes
   const pedal = createPedal({
     name: 'chorus',
-    label: 'float',
+    label: 'Chorus',
     toggle,
     active: defaults.active,
     index

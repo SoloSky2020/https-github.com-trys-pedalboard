@@ -35,7 +35,7 @@ export const tremoloPedal = function(input, index) {
   // Create the DOM nodes
   const pedal = createPedal({
     name: 'tremolo',
-    label: '&lt;blink /&gt;',
+    label: 'Tremolo',
     toggle,
     active: defaults.active,
     index

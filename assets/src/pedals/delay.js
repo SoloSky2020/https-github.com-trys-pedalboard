@@ -40,7 +40,7 @@ export const delayPedal = function(input, index) {
   // Create the DOM nodes
   const pedal = createPedal({
     name: 'delay',
-    label: 'setTimeout',
+    label: 'Delay',
     toggle,
     active: defaults.active,
     index

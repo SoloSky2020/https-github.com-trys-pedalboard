@@ -35,7 +35,7 @@ export const compressorPedal = function(input, index) {
   // Create the DOM nodes
   const pedal = createPedal({
     name: 'compressor',
-    label: 'Smoosh',
+    label: 'Compressor',
     toggle,
     active: defaults.active,
     index

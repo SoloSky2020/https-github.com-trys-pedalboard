@@ -65,7 +65,7 @@ export const harmonicTremoloPedal = function(input, index) {
   // Create the DOM nodes
   const pedal = createPedal({
     name: 'harmonic tremolo',
-    label: 'rotate(180deg)',
+    label: 'Harmonic Tremolo',
     toggle,
     active: defaults.active,
     index

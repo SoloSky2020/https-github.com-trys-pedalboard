@@ -43,7 +43,7 @@ export const overdrivePedal = function(input, index) {
   // Create the DOM nodes
   const pedal = createPedal({
     name: 'overdrive',
-    label: 'Math.pow()',
+    label: 'Overdrive',
     toggle,
     active: defaults.active,
     index
