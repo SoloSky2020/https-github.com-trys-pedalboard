@@ -707,10 +707,10 @@ li{
     text-align: center;
     color:rgb(0, 0, 0);
     font-size: 20px;
-    padding: 1px;
+    margin: 5px;
   }
 .infotext{
     background-color: darkred;
     color:white;
-    
+    text-align: center;
 }
