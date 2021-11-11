@@ -679,6 +679,8 @@ h1 {
   }
 .creditsbody{
     justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(blueviolet 13%,blue,grey 89%);
   }
 .credhead, .audiohead, .tutorialhead{
     text-align: center;
@@ -686,7 +688,7 @@ h1 {
     padding: 1px;
   }
 .credhead{
-    background-color: rgb(171, 77, 240);
+    background-color: #ab4df0;
   }
 .audiohead{
     background-color:darkorange;
@@ -703,7 +705,7 @@ li{
     display:inline-flex; 
   }
 .infohead{
-    background-color: rgb(0, 255, 245);
+    background-color: #00fff5;
     text-align: center;
     color:rgb(0, 0, 0);
     font-size: 20px;
@@ -713,4 +715,11 @@ li{
     background-color: darkred;
     color:white;
     text-align: center;
+}
+.Pedalboard2{
+    background-color: grey;
+}
+#gradhome{
+    background-image:linear-gradient(#ab4df0 15%, #00fff5 33%, darkorange 73%, yellow 100%);
+    color:black;
 }

@@ -88,14 +88,10 @@ const load = async LIVE => {
     harmonicTremoloPedal,
     chorusPedal,
     delayPedal,
-    multiHeadDelay,
     tremoloPedal,
     reverbPedal
   ];
 
-  if (window.MediaRecorder !== undefined) {
-    pedals.push(loopPedal)
-  }
 
   const output = pedals.reduce((input, pedal, index) => {
     return pedal(input, index + 1);
