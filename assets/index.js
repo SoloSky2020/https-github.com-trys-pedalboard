@@ -1,6 +1,4 @@
-import { multiHeadDelay } from './src/pedals/multihead-delay.js';
 import { reverbPedal } from './src/pedals/reverb.js';
-import { loopPedal } from './src/pedals/loop.js';
 import { delayPedal } from './src/pedals/delay.js';
 import { wahPedal } from './src/pedals/wah.js';
 import { tremoloPedal } from './src/pedals/tremolo.js';
