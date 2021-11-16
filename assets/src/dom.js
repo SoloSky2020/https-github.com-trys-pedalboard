@@ -72,7 +72,8 @@ export const createPedal = ({ name, label, toggle, active, index = 0 }) => {
   </div>
   <h2>${label}</h2>
   <span class="pedal__jack"></span>
-  <span class="pedal__jack"></span>`;
+  <span class="pedal__jack"></span>
+  <br>`;
 
   const input = pedal.querySelector('[type="checkbox"]');
   input.addEventListener('change', () => toggle());

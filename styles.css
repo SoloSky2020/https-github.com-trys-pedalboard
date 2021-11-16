@@ -73,7 +73,7 @@ a {
     color: inherit;
 }
 
-/* Global */
+
 body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -86,7 +86,7 @@ body {
     color: #FFF;
 }
 
-/* Starter */
+
 .starter {
     text-align: center;
     transition: 800ms opacity;
@@ -144,7 +144,7 @@ h1 {
     }
 }
 
-/* Pedals */
+
 .pedalboard {
     display: flex;
     flex-wrap: wrap;
@@ -340,21 +340,21 @@ h1 {
     left: 75%;
 }
 
-/* Pedal styles */
+
 .pedal--chorus {
-    background: linear-gradient(#4bccc8, #9fd6e8);
+    background: linear-gradient(rgb(75, 204, 200), rgb(161, 214, 232));
 }
 
 .pedal--boost {
-    background: linear-gradient(#FF5722, #eca438);
+    background: linear-gradient(rgb(255, 87, 34), rgb(236, 164, 56));
 }
 
 .pedal--tremolo {
-    background: linear-gradient(#673AB7, #460b50);
+    background: linear-gradient(rgb(103, 58, 183), rgb(70, 11, 80));
 }
 
 .pedal--harmonic-tremolo {
-    background: linear-gradient(#6d522a, #2f2e2c);
+    background: linear-gradient(rgb(109, 82, 42), rgb(47, 46, 44));
 }
 
 .pedal--multihead-delay {
