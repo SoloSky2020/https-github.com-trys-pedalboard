@@ -152,10 +152,12 @@ h1 {
     align-items: flex-end;
     padding: 20px 0;
     width: 100%;
+    text-align: center;
 }
 
 .pedalboard:empty {
-    display: none;
+    display: flex;
+    text-align:center;
 }
 
 .pedal {

@@ -64,7 +64,7 @@ export const createSwitch = ({
 export const createPedal = ({ name, label, toggle, active, index = 0 }) => {
   const pedal = document.createElement('div');
   const id = name.replace(/\s/g, '-')
-  pedal.innerHTML = `<ul class="pedal__controls"></ul>
+  pedal.innerHTML = `<br><ul class="pedal__controls"></ul>
   <div class="pedal__on-off">
     <input id="${id}_active" type="checkbox" ${active ? 'checked' : ''} />
     <output class="pedal__led"></output>
