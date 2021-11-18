@@ -37,14 +37,14 @@ const load = async LIVE => {
     }
   };
 
-  await fetch('/assets/Conic Long Echo Hall.wav')
+  await fetch('')
     .then(response => response.arrayBuffer())
     .then(data => {
       return ctx.decodeAudioData(data, b => {
         buffer = b;
       });
     })
-    .catch(e => onError('Failed to load reverb impulse'));
+    .catch(e => onError(''));
 
   try {
     const midiCtx = await navigator.requestMIDIAccess();
